@@ -5,11 +5,12 @@ Bahasa C
 main ()
 {
 	int a,b,kuadrat_penjumlahan;
-	printf(“Bilangan 1 :”);
-	scanf(“%d”,&a);
-	printf(“Bilangan 2 :”);
-	scanf(“%d”,&b);
+	printf("bilangan pertama=:");
+	scanf("%d",&a);
+	printf("bilangan kedua=:");
+	scanf("%d",&b);
 	kuadrat_penjumlahan = (a+b)^2;
-printf(“Hasil Jumlahnya = %d”, kuadrat_penjumlahan);
+printf("Hasil Jumlahnya = %d",kuadrat_penjumlahan);
 return 0;
 }
+
